@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Flexbox</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <style>
+   .col{
+     height:40vh;
+   }
+  </style>
+</head>
+<body>
+  <!--Flexbox in bootstrap-->
+  <!--d-flex-->
+  <!--only direct children-->
+ <div class="container">
+   <div class="row">
+    <div class="col bg-danger d-flex justify-content-around ">
+     <p class="bg-info">hello world</p>
+     <p class="bg-success">hello world</p>
+     <p class="bg-warning">hello world</p>
+     <p class="bg-dark">hello world</p>
+    </div>
+   </div>
+ </div>
+ <br>
+ <br>
+ <br>
+ <div class="container">
+  <div class="row">
+   <div class="col bg-danger d-flex justify-content-around align-items-center">
+    <p class="bg-info">hello world</p>
+    <p class="bg-success">hello world</p>
+    <p class="bg-warning">hello world</p>
+    <p class="bg-dark">hello world</p>
+   </div>
+  </div>
+</div>
+<br>
+ <br>
+ <br>
+ <div class="container">
+  <div class="row">
+   <div class="col bg-danger d-flex justify-content-around align-items-center">
+    <p class="bg-info align-self-start">hello world</p>
+    <p class="bg-success">hello world</p>
+    <p class="bg-warning">hello world</p>
+    <p class="bg-dark align-self-end">hello world</p>
+   </div>
+  </div>
+</div>
+
+ <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
+

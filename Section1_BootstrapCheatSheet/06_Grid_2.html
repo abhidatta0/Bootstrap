@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Grid 2</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+  <!--Sum of columns greater than 12-->
+
+  <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6 bg-danger">I am 6</div>
+        <div class="col-sm-6 bg-primary">I am 6</div>
+        <div class="col-sm-3 bg-warning">I am 3</div>
+      </div>
+  </div>
+  <br>
+  <br>
+  <br>
+
+  <!--Nested Columns-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-3 bg-danger">I am 3</div>
+      <div class="col-sm-6 bg-primary">I am 6</div>
+      <div class="col-sm-3 bg-warning">I am 3
+        <div class="row">
+          <div class="col-sm-6 bg-info">I am half</div>
+          <div class="col-sm-6 bg-success">I am half</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

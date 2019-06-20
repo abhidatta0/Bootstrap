@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Responsive Breakpoints</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <style>
+  /* These are Bootstrap Responsive Breakpoints .
+  Just for reference */
+  body{
+   background-color:aqua;
+  }
+
+  @media (min-width:576px){
+    /* 576px and up */
+    body{
+    background-color: red;
+    }
+  }
+  @media (min-width:768px){
+    /* 768px and up */
+    body{
+    background-color: blue;
+    }
+  }
+
+  @media (min-width:992px){
+    /* 992px and up */
+    body{
+    background-color: green;
+    }
+  }
+  @media (min-width:1200px){
+    /* 1200px and up */
+    body{
+    background-color: yellow;
+    }
+  }
+  </style>
+</head>
+<body>
+  <div class="container bg-secondary text-white">
+    simple container
+  </div>
+  <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
