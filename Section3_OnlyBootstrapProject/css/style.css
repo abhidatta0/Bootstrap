@@ -1,0 +1,31 @@
+/* Custom css */
+body{
+  font-family:'Arvo', serif;
+}
+.height{
+  min-height: 100vh;
+}
+.title-underline{
+  width:200px;
+  height:5px;
+  margin:0 auto;
+  /* background:blue !important; */
+}
+
+.about-picture{
+  background: url('../img/sample.jpg') no-repeat center center/cover fixed;  
+}
+
+.height-80{
+  min-height:80vh
+}
+
+#project img{
+  height:300px;
+  width: 400px;
+}
+
+/* Carousel.html */
+#img-height .carousel-item img{
+  height:450px;
+}
